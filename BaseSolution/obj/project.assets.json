@@ -664,28 +664,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\": {},
+    "C:\\Users\\rodrigo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodrigo\\Documents\\homework\\c_sharp\\c_sharp.csproj",
+      "projectUniqueName": "C:\\Users\\rodrigo\\Documents\\trabalhos\\treinamentos\\csharp-treinamento\\BaseSolution\\c_sharp.csproj",
       "projectName": "c_sharp",
-      "projectPath": "C:\\Users\\Rodrigo\\Documents\\homework\\c_sharp\\c_sharp.csproj",
-      "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodrigo\\Documents\\homework\\c_sharp\\obj\\",
+      "projectPath": "C:\\Users\\rodrigo\\Documents\\trabalhos\\treinamentos\\csharp-treinamento\\BaseSolution\\c_sharp.csproj",
+      "packagesPath": "C:\\Users\\rodrigo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rodrigo\\Documents\\trabalhos\\treinamentos\\csharp-treinamento\\BaseSolution\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -704,7 +706,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
           }
         },

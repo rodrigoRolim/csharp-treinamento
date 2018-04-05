@@ -9,5 +9,17 @@ namespace BaseSolution
         public String FatherName;
         public String Email { get; set; }
        
+        public Person CreatePersons() {
+            Person p = new Person();
+            Console.Write("Email: ");
+            p.Email = Console.ReadLine();
+            Console.Write("\n");
+            Console.Write("Data de nascimento: ");
+            p.BirthDate = Convert.ToDateTime(Console.ReadLine());
+            Console.Write("\n");
+            Console.Write("Nome do pai: ");
+            p.FatherName = Console.ReadLine();
+            return p;
+        }
     }
 }

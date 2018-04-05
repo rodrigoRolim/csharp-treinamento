@@ -21,9 +21,13 @@ namespace BaseSolution
            var entrada = Convert.ToInt32(Console.ReadLine());
            switch(entrada){
                case 1:
-                    Project project = new Project();
-                    
+                    Project Project = new Project();
+                    Project.BuildProject();
+                    Projects.Add(Project);
                 break;
+                case 2:
+                    Projects.ForEach(x => Console.WriteLine(x));
+                    break;
            }
         }
     }    

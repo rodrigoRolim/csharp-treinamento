@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace c_sharp
+namespace BaseSolution
 {
     class Program
     {
         static void Main(string[] args)
         {
-           
+           new FactoryProjects().StartFactoryProjects();
         }
     }
 }
